@@ -1,7 +1,7 @@
 {
     "editor.fontSize": 16,
     "editor.fontFamily": "'Consolas', Menlo, Monaco, 'Courier New', monospace",
-    "window.zoomLevel": 4,
+    "window.zoomLevel": 1
     "workbench.startupEditor": "newUntitledFile",
     
     // Number of editors shown in the Open Editors pane. 
