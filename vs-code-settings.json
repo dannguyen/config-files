@@ -1,0 +1,21 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Consolas', Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 4,
+    "workbench.startupEditor": "newUntitledFile",
+    
+    // Number of editors shown in the Open Editors pane. 
+    // Set it to 0 to hide the pane.
+    "explorer.openEditors.visible": 0,
+    
+    // don't search/surface these patterns
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true
+    },
+    "explorer.confirmDelete": false
+  }
