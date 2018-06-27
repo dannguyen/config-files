@@ -1,7 +1,7 @@
 # https://www.cyberciti.biz/tips/freebsd-how-to-enable-colorized-ls-output.html
 export CLICOLOR=1
 LSCOLORS=''
-LSCOLORS=${LSCOLORS}Gx # directory
+LSCOLORS=${LSCOLORS}gx # directory
 LSCOLORS=${LSCOLORS}fa # sym link
 LSCOLORS=${LSCOLORS}Da # socket
 LSCOLORS=${LSCOLORS}ca # pipe
