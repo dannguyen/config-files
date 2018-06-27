@@ -32,7 +32,6 @@
 		"*.zip",
 		"*.min.*"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Blackboard (SL).tmTheme",
 	"drag_text": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -100,8 +99,8 @@
 		"scratch",
 		".cache"
 	],
-	"font_face": "Hack",
-	"font_size": 23,
+	"font_face": "Monaco",
+	"font_size": 20,
 	"ignored_packages":
 	[
 		"Markdown",
