@@ -1,0 +1,21 @@
+[push]
+	default = simple
+[user]
+	name = Dan Nguyen
+	email = dansonguyen@gmail.com
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[core]
+	editor = nano
+[github]
+	user = dannguyen
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
