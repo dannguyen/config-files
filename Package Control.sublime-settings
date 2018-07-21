@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Color Scheme - Legacy",
+		"Colorsublime",
+		"Emmet",
+		"Markdown Extended",
+		"Markdown Table Formatter",
+		"MarkdownEditing",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"Restructured Text (RST) Snippets",
+		"RestructuredText Improved",
+		"SideBarEnhancements",
+		"SublimeLinter"
+	]
+}
