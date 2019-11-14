@@ -1,13 +1,10 @@
-# Made special for CompCiv 2018
+# Dan Nguyen's custom bashfoo
 
 # names for data stash folders that shouldn't be committed
 _drafts/
-datastash/
-datadump/
-foobar/
-foobar.*
 junk/
-
+zunk/
+ZUNK/
 
 # try to prevent the inclusion of credentials
 creds/
@@ -20,12 +17,19 @@ apikey*.*
 *.zip
 *.gz
 
+# spreadsheet/db intermediate files
+~$*.xlsx
+# libre
+.~lock.*
+
+
+
+
 # OS stuff
 .DS_Store
 .Trashes
 .Spotlight-V100
 Thumbs.db
-
 
 
 # Byte-compiled / optimized / DLL files
@@ -60,6 +64,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+.pytest_cache/
 
 # Installer logs
 pip-log.txt
@@ -132,3 +137,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# js/svelte stuff
+node_modules
+public/bundle.*
