@@ -142,3 +142,10 @@ venv.bak/
 # js/svelte stuff
 node_modules
 public/bundle.*
+
+# jekyll stuff
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
