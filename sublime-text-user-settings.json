@@ -9,6 +9,7 @@
 	"auto_find_in_selection": true,
 	"binary_file_patterns":
 	[
+		".coverage",
 		"*.dds",
 		"*.eot",
 		"*.gif",
@@ -31,13 +32,15 @@
 		"*.xls",
 		"*.xlsx",
 		"*.zip",
-		"docs/**"
+		".jekyll-cache/**"
 	],
 	"color_scheme": "Packages/Monokai++/themes/Monokai++.tmTheme",
 	"drag_text": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
+		".Rhistory",
+		".coverage",
 		".env_keys",
 		"*.eot",
 		"*.sqlite3",
@@ -83,26 +86,33 @@
 	],
 	"folder_exclude_patterns":
 	[
+		"maritz-project-docs",
 		".ipynb_checkpoints",
 		"__pycache__",
 		"db/dump",
 		".svn",
 		"build",
 		"_build",
+		"dist",
 		".git",
 		".hg",
 		"CVS",
+		"*.egg-info",
 		"node_modules",
 		".sass-cache",
 		".tmp",
+		"jekyll-cache",
+		"_ZUNK",
+		"TMPWORK",
 		"tmp",
 		"bower_components",
 		"_site",
 		"scratch",
 		".cache",
+		".jekyll-cache",
 		".pytest_cache"
 	],
-	"font_face": "Consolas",
+	"font_face": "IBM Plex Mono",
 	"font_size": 22,
 	"ignored_packages":
 	[
@@ -121,5 +131,6 @@
 	"tab_size": 4,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
 }
